@@ -31,7 +31,7 @@
 
   - name: copy backend conf
     ansible.builtin.copy:
-      src: expens.confa
+      src: expens.conf
       dest: /etc/nginx/default.d/expense.conf
 
   - name: restart nginx
