@@ -1,5 +1,5 @@
 - name: Configure Backend server 
-  hosta: backend
+  hosts: backend
   become: yes
   vars:
     login_host: db.crn503.online
